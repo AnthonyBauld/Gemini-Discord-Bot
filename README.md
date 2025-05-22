@@ -92,7 +92,7 @@ This Discord bot uses the Gemini API (`gemini-1.5-flash-latest`) from Google to 
 
 ## Troubleshooting
 - **Bot Doesn’t Start**
-  - Check `.env` for correct `DISCORD_TOKEN` and `GEMINI_API_KEY` at `/Users/anthonybauld/Desktop/Stuff/Gemini Discord Bot/.env`.
+  - Check `.env` for correct `DISCORD_TOKEN` and `GEMINI_API_KEY` at `Gemini-Discord-Bot/.env`.
   - Verify dependencies: `pip install discord.py python-dotenv PyPDF2 google-generativeai`.
   - Ensure Python 3.8+: `python --version`.
   - Look for logs like “ValueError: Missing required environment variables”.
