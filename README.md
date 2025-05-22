@@ -28,7 +28,7 @@ This Discord bot uses the Gemini API (`gemini-1.5-flash-latest`) from Google to 
    ```
 
 2. **Create and Configure `.env`**
-   - Create a `.env` file in the project root (`/Users/anthonybauld/Desktop/Stuff/Gemini Discord Bot/`).
+   - Create a `.env` file in the project root (`/Gemini Discord Bot/`).
    - Add your Discord bot token and Gemini API key:
      ```env
      DISCORD_TOKEN=your_discord_bot_token
@@ -56,7 +56,7 @@ This Discord bot uses the Gemini API (`gemini-1.5-flash-latest`) from Google to 
 
 4. **Run the Bot**
    ```bash
-   cd "/Users/anthonybauld/Desktop/Stuff/Gemini Discord Bot"
+   cd Gemini-Discord-Bot/.env
    python bot.py
    ```
    - Or use `python3 bot.py` if required.
